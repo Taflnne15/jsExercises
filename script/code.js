@@ -29,4 +29,8 @@
 //    } 
 //    console.log(personalDetail);
 
+
+//Q3//
+
+
     
