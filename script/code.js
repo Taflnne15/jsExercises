@@ -10,7 +10,7 @@
 
 //how to make your name appear in the console//
 // function fullName(name){
-//     console.log(name)
+//     console.log(name);
 // } fullName('Taflynne Petersen')
 
 
@@ -23,10 +23,10 @@
 //     firstName: 'Taflynne',
 //     lastName: 'Petersen',
 //     age: '18',
-//     subjects: 'Tourism,Life Sciences,Music, Math lit, Afrikaans, English,';
+//     subjects: 'Tourism,Life Sciences,Music, Math lit, Afrikaans, English,',
 //     adress: '22 Jump Street',
 //    city: 'Gotham City',
-//    
-
+//    } 
+//    console.log(personalDetail);
 
     
