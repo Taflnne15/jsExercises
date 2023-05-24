@@ -9,5 +9,24 @@
 // 8. Define hoisting and variable scoping: according to google "n simple terms, scope of a variable is its lifetime in the program. " and if the variables are set within a specefic function such as setup or draw they may only be used in these functions.
 
 //how to make your name appear in the console//
-let fullName = 'Taflynne Petersen'
-console.log(fullName)
+// function fullName(name){
+//     console.log(name)
+// } fullName('Taflynne Petersen')
+
+
+
+
+
+
+// Q2
+// let personalDetail = {
+//     firstName: 'Taflynne',
+//     lastName: 'Petersen',
+//     age: '18',
+//     subjects: 'Tourism,Life Sciences,Music, Math lit, Afrikaans, English,';
+//     adress: '22 Jump Street',
+//    city: 'Gotham City',
+//    
+
+
+    
