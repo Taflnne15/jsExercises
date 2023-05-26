@@ -31,6 +31,54 @@
 
 
 //Q3//
+// //some code will be taken from calculator in java//
+
+
+
+// calculate.value=eval(calculate.value) 
+
+
+
+
+
+
+//code from js calculator
+function calculate(){
+    let number_1 = parseInt(document.querySelector('.input1').value);
+    let operator = document.querySelector('.operator').value;
+    let number_2 = parseInt(document.querySelector('.input2').value);
+    // let  = parseInt(document.querySelector('.input1').value) ;
+    // let operater = (document.querySelector('operator').value);
+    // let input2 = parseInt(document.querySelector('.input2').value)
+    // let input2=document.querySelector('numb2').value
+    
+    console.log(number_1);
+    console.log(operator);
+    console.log(number_2);
+// let output = document.querySelector('.output').innerHTML = number_1
+
+
+if (operator === '+'){
+    document.querySelector('.output').innerHTML= number_1 + number_2;
+} else if (operator === '-'){
+    document.querySelector('.output').innerHTML= number_1 - number_2;
+}
+   
+    else if (operator === '*'){
+        document.querySelector('.output').innerHTML= number_1 * number_2;
+    }
+    
+    else if (operator === '/'){
+        document.querySelector('.output').innerHTML= number_1 / number_2 ;
+    }
+    
+}
+
+
+
+
+
+
 
 
     
