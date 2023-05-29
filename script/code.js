@@ -31,50 +31,72 @@
 
 
 //Q3//
-// //some code will be taken from calculator in java//
-
-
-
-// calculate.value=eval(calculate.value) 
-
-
-
-
-
-
-//code from js calculator
-function calculate(){
-    let number_1 = parseInt(document.querySelector('.input1').value);
-    let operator = document.querySelector('.operator').value;
-    let number_2 = parseInt(document.querySelector('.input2').value);
-    // let  = parseInt(document.querySelector('.input1').value) ;
-    // let operater = (document.querySelector('operator').value);
-    // let input2 = parseInt(document.querySelector('.input2').value)
-    // let input2=document.querySelector('numb2').value
+// function calculate(){
+//     let number_1 = parseInt(document.querySelector('.input1').value);
+//     let operator = document.querySelector('.operator').value;
+//     let number_2 = parseInt(document.querySelector('.input2').value);
     
-    console.log(number_1);
-    console.log(operator);
-    console.log(number_2);
+    
+    // console.log(number_1);
+    // console.log(operator);
+    // console.log(number_2);
 // let output = document.querySelector('.output').innerHTML = number_1
 
 
-if (operator === '+'){
-    document.querySelector('.output').innerHTML= number_1 + number_2;
-} else if (operator === '-'){
-    document.querySelector('.output').innerHTML= number_1 - number_2;
-}
+// if (operator === '+'){
+//     document.querySelector('.output').innerHTML= number_1 + number_2;
+// } else if (operator === '-'){
+//     document.querySelector('.output').innerHTML= number_1 - number_2;
+// }
    
-    else if (operator === '*'){
-        document.querySelector('.output').innerHTML= number_1 * number_2;
-    }
+//     else if (operator === '*'){
+//         document.querySelector('.output').innerHTML= number_1 * number_2;
+//     }
     
-    else if (operator === '/'){
-        document.querySelector('.output').innerHTML= number_1 / number_2 ;
-    }
+//     else if (operator === '/'){
+//         document.querySelector('.output').innerHTML= number_1 / number_2 ;
+//     }
     
+// }
+
+Q4
+function reverseString(){
+    let subject ='programming';
+
+    if(subject ==  'programming'){
+        console.log('gnimmargorp');
+        
+    }   
 }
+reverseString()
+
+    
+ //Q5
+ let person = [{
+name: 'Mish-Al',
+dob: '2020-05-31'
+}]
 
 
+let todaysDate = new Date()
+let thatDate = new Date(person[0].dob)
+console.log(thatDate)
+console.log(todaysDate)
+
+
+
+console.log(thatDate.getDate())
+console.log(todaysDate.getDate())
+console.log(thatDate.getDate() - todaysDate.getDate() + " days left until his birthday")
+
+
+
+
+
+
+
+ 
+    
 
 
 
